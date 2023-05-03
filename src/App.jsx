@@ -2,13 +2,13 @@ import { useState } from 'react';
 import { buttons } from './utils/buttons';
 import { MODES } from './utils/modes';
 import Button from './Button';
+import ChangeStyle from './ChangeStyle';
 import {
   endsWithNegativeSign,
   endsWithOperator,
   isOperator,
 } from './utils/validator';
 import './styles/App.css';
-import ChangeStyle from './ChangeStyle';
 
 function App() {
   const [formula, setFormula] = useState('');
@@ -18,7 +18,9 @@ function App() {
 
   const [mode, setMode] = useState(MODES.purple);
 
-  // Función para los números
+  /**
+   * Función para los números
+   */
   function handlerNumber({ target: { innerText } }) {
     setEvaluate(false);
     if (evaluate) {
@@ -142,6 +144,9 @@ function App() {
     setEvaluate(false);
   }
 
+  /**
+   * Función para cambiar el estilo de la calculadora
+   */
   function changeMode(mode) {
     setMode(mode);
   }
