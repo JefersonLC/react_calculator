@@ -35,3 +35,4 @@ If you would like to contribute to this project, feel free to submit a pull requ
 ![Screenshot of the calculator](./assets/1.png)
 ![Screenshot of the calculator](./assets/2.png)
 ![Screenshot of the calculator](./assets/3.png)
+
