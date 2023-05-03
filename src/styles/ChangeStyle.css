@@ -1,0 +1,52 @@
+.mode-container {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.button-mode {
+  position: relative;
+  width: 60px;
+  height: 24px;
+  background-color: #7158a1;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button-circle {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #e9da05;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  transition: left 0.2s linear;
+}
+
+/* PP Mode */
+.pp-mode .button-mode {
+  background-color: #7158a1;
+}
+
+.pp-mode .button-circle {
+  background-color: #e9da05;
+}
+
+/* BL Mode */
+.bl-mode .button-mode {
+  background-color: #5872a1;
+}
+
+.bl-mode .button-circle {
+  background-color: #05e9d6;
+}
+
+/* GR Mode */
+.gr-mode .button-mode {
+  background-color: #58a17c;
+}
+
+.gr-mode .button-circle {
+  background-color: #05e905;
+}
