@@ -28,7 +28,7 @@ The calculator was built using the following tools and technologies:
 
 ## Contribution
 
-If you would like to contribute to this project, feel free to submit a pull request. Before doing so, make sure to review the contribution guidelines and to create a separate branch for your changes.
+If you'd like to contribute to this project, feel free to submit a pull request. Before doing so, be sure to create a separate branch for your changes.
 
 ## Screenshots
 
